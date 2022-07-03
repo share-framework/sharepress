@@ -14,6 +14,6 @@ jobs:
         TARGET_REPO: share-framework/sharepress
         TARGET_BRANCH: publish
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: /public
+        BUILD_DIR: public
         COMMIT_MESSAGE: Auto deploy from Github Actions
         #CNAME: https://www.andotorg.com
