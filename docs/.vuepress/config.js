@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
-    base: '/',
-    dest: 'public'
+  title: 'SharePress',
+  description: 'code slice',
+  base: '/',
+  dest: 'public'
 }
