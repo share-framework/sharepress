@@ -4,9 +4,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - name: Checkout
+      uses: actions/checkout@master
+      
     - name: sharepress-deploy
-      uses: ./
+      uses: share-framework/sharepress@master
       env:
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         TARGET_REPO: share-framework/sharepress
