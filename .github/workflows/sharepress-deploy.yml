@@ -12,7 +12,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         TARGET_REPO: share-framework/sharepress
-        TARGET_BRANCH: publish
+        TARGET_BRANCH: site
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: public
         COMMIT_MESSAGE: Auto deploy from Github Actions
