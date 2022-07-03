@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: sharepress-deploy
-      uses: share-framework/sharepress@master
+      uses: ./
       env:
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         TARGET_REPO: share-framework/sharepress
