@@ -1,12 +1,12 @@
 name: Build and Deploy
 on: [push]
 jobs:
-  build-and-deploy:
+  run:
+    name: build-and-deploy
     runs-on: ubuntu-latest
     steps:
-
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@master
 
     - name: sharepress-deploy
       uses: share-framework/sharepress@master
