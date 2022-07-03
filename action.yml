@@ -1,9 +1,0 @@
-name: 'Sharepress deploy'
-description: 'A GitHub Action to build and publish Sharepress sites to GitHub Pages'
-author: 'andotorg'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-branding:
-  icon: 'upload-cloud'
-  color: 'gray-dark'
